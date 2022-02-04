@@ -4,7 +4,7 @@
 import mods.roots.Mortar;
 
 //格罗夫祈愿
-Mortar.changeSpell("spell_supplication", [<roots:cloud_berry>, <minecraft:mossy_cobblestone>, <minecraft:sapling>, <roots:wildroot>, <roots:petals>]);
+//Mortar.changeSpell("spell_supplication", [<roots:cloud_berry>, <minecraft:mossy_cobblestone>, <minecraft:sapling>, <roots:wildroot>, <roots:petals>]);
 //金叶粉
 Mortar.addRecipe("gold_powder",<naturesaura:gold_powder>, [<naturesaura:gold_leaf>]);
 Mortar.addRecipe("dust_wood",<contenttweaker:dust_wood>, [<ore:plankWood>]);
