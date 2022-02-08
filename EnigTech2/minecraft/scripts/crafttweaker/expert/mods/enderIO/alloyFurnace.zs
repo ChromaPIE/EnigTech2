@@ -54,6 +54,6 @@ AlloySmelter.removeRecipe(<enderio:item_material:39>);
     //Hyunium
     AlloySmelter.addRecipe(<ore:ingotHyunium>.firstItem, [<ore:ingotSoularium>, <ore:ingotAstralStarmetal>, <ore:ingotEnderium>], 6400);
     //SJ2 Armor Plates
-    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:17>, [<ore:ingotBronze>*10, <simplyjetpacks:metaitemmods:16>, 7200]);
-    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:18>, [<ore:ingotInvar>*10, <simplyjetpacks:metaitemmods:17>, 8400]);
-    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:19>, [<ore:ingotEnderium>*10, <simplyjetpacks:metaitemmods:18>, 9600]);
+    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:17>, [<ore:ingotBronze>*10, <simplyjetpacks:metaitemmods:16>], 7200);
+    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:18>, [<ore:ingotInvar>*10, <simplyjetpacks:metaitemmods:17>], 8400);
+    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:19>, [<ore:ingotEnderium>*10, <simplyjetpacks:metaitemmods:18>], 9600);
