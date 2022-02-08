@@ -210,7 +210,7 @@ TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:16>.withTag({Energy: 0, J
 	[null, null, <contenttweaker:charged_gaiya_crystal>, null, null], 
 	[null, <ore:ingotLead>, <thermalexpansion:capacitor>, <ore:ingotLead>, null], 
 	[null, <ore:ingotLead>, <simplyjetpacks:metaitem:4>, <ore:ingotLead>, null], 
-	[null, <simplyjetpacks:metaitemmods:26>, null, <simplyjetpacks:metaitemmods:26>, null], 
+	[null, <simplyjetpacks:metaitemmods:20>, null, <simplyjetpacks:metaitemmods:20>, null], 
 	[null, <ore:particle_customizer>, null, <ore:particle_customizer>, null]
 ]);
 
@@ -219,7 +219,7 @@ TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:17>.withTag({Energy: 0, J
 	[null, null, <contenttweaker:charged_gaiya_crystal>, null, null], 
 	[null, <ore:ingotInvar>, <thermalexpansion:capacitor:1>, <ore:ingotInvar>, null], 
 	[null, <ore:ingotInvar>, <simplyjetpacks:itemjetpack:16>, <ore:ingotInvar>, null], 
-	[null, <simplyjetpacks:metaitemmods:27>, null, <simplyjetpacks:metaitemmods:27>, null], 
+	[null, <simplyjetpacks:metaitemmods:21>, null, <simplyjetpacks:metaitemmods:21>, null], 
 	[null, <ore:particle_customizer>, null, <ore:particle_customizer>, null]
 ]);
 

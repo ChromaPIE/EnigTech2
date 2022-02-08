@@ -51,3 +51,7 @@ AlloySmelter.removeRecipe(<enderio:item_material:39>);
     AlloySmelter.addRecipe(<nuclearcraft:alloy:12>*8, [<ore:ingotZirconium>*7, <ore:ingotTin>], 7200);
     //高能络合物
     AlloySmelter.addRecipe(<contenttweaker:energetic_clathrate>*2, [<ore:clathrateRedstone>,<ore:clathrateGlowstone>], 3200);
+    //SJ2 Armor Plates
+    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:17>, [<ore:ingotBronze>*10, <simplyjetpacks:metaitemmods:16>], 7200);
+    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:18>, [<ore:ingotInvar>*10, <simplyjetpacks:metaitemmods:17>], 8400);
+    AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:19>, [<ore:ingotEnderium>*10, <simplyjetpacks:metaitemmods:18>], 9600);

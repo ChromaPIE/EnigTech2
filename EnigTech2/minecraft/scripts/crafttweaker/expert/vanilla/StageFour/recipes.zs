@@ -43,8 +43,10 @@ recipes.addShaped(<forestry:resource_storage>, [[<forestry:apatite>, <forestry:a
 recipes.addShapeless(<forestry:apatite>*9,[<forestry:resource_storage>]);
 recipes.addShaped(<enderio:item_material:52>,[[<enderio:item_material:74>,<ore:dustNetherQuartz>,<enderio:item_material:49>],[<ore:dustNetherQuartz>,<enderio:item_material:51>,<ore:dustNetherQuartz>],[<enderio:item_material:49>,<ore:dustNetherQuartz>,<enderio:item_material:74>]]);
 recipes.addShaped(<enderio:block_wired_charger>,[[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>],[<contenttweaker:magcondium_ingot>,<enderio:block_simple_wired_charger>,<contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>]]);
-recipes.addShaped(<simplyjetpacks:metaitemmods:26>,[[<ore:ingotLead>,<actuallyadditions:item_battery_double>,<ore:ingotLead>],[<ore:blockGlass>,<enderio:item_power_conduit>,<ore:blockGlass>],[<ore:ingotLead>,<embers:jet_augment>,<ore:ingotLead>]]);
-recipes.addShaped(<simplyjetpacks:metaitemmods:27>,[[<ore:ingotInvar>,<actuallyadditions:item_battery_double>,<ore:ingotInvar>],[<ore:blockGlass>,<enderio:item_power_conduit:1>,<ore:blockGlass>],[<ore:ingotInvar>,<embers:jet_augment>,<ore:ingotInvar>]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:20>,[[<ore:ingotLead>,<actuallyadditions:item_battery_double>,<ore:ingotLead>],[<ore:blockGlassHardened>,<ore:ingotConductiveIron>,<ore:blockGlassHardened>],[<ore:ingotLead>,<embers:jet_augment>,<ore:ingotLead>]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:21>,[[<ore:ingotInvar>,<actuallyadditions:item_battery_triple>,<ore:ingotInvar>],[<ore:blockGlassHardened>,<enderio:item_power_conduit>,<ore:blockGlassHardened>],[<ore:ingotInvar>,<embers:jet_augment>,<ore:ingotInvar>]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:22>,[[<ore:ingotElectrum>,<actuallyadditions:item_battery_quadruple>,<ore:ingotElectrum>],[<ore:blockGlassHardened>,<enderio:item_power_conduit:1>,<ore:blockGlassHardened>],[<ore:ingotElectrum>,<embers:jet_augment>,<ore:ingotElectrum>]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:23>,[[<ore:ingotEnderium>,<actuallyadditions:item_battery_quintuple>,<ore:ingotEnderium>],[<ore:blockGlassHardened>,<enderio:item_power_conduit:2>,<ore:blockGlassHardened>],[<ore:ingotEnderium>,<embers:jet_augment>,<ore:ingotEnderium>]]);
 recipes.addShaped(<thermalexpansion:capacitor>.withTag({Energy: 0}),[[null,<minecraft:redstone>,null],[<ore:ingotLead>,<ore:ingotCopper>,<ore:ingotLead>],[<minecraft:redstone>,<ore:dustSulfur>,<minecraft:redstone>]]);
 recipes.addShaped(<thermalexpansion:capacitor:1>.withTag({Energy: 0}),[[null,<minecraft:redstone>,null],[<ore:ingotInvar>,<thermalexpansion:capacitor>.withTag({Energy: 0}),<ore:ingotInvar>],[<minecraft:redstone>,<ore:ingotTin>,<minecraft:redstone>]]);
 //强化能量管道
@@ -106,13 +108,6 @@ recipes.addShaped(
     ]
 );
 
-recipes.addShaped(
-    <item:simplyjetpacks:metaitemmods:18>,[
-        [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>],
-        [<ore:ingotLumium>,<botania:elfglass>,<ore:ingotLumium>],
-        [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>]
-    ]
-);
 //温室玻璃
 recipes.addShaped("greenhouse_glass_tweaked_advanced", <sereneseasons:greenhouse_glass:0> * 8, [[<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>],[<ore:blockGlass>,<forestry:fertilizer_bio>,<ore:blockGlass>],[<ore:dyeCyan>,<forestry:resource_storage:0>,<ore:dyeCyan>]]);
 

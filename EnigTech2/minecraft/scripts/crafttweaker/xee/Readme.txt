@@ -12,14 +12,14 @@ Please be advised that ALL of the scripts at this folder can ONLY be loaded when
 
 All of the scripts here must start with a ModLoader Preprocessor line. The correct form is:
 
-#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments rewired
 
 The form is to avoid problems that might happen due to some weird operations. Such as selecting some, but not all of the DLC mods to the modpack. Now, if so, the modpack will just treat this player as "privately added some mods into it" but not "installing the DLC".
 
 There will be no differences between packmodes in this DLC, so separated folders containing packmoded scripts will no longer be exist. So please start every single scripts with:
 
 #packmode normal expert
-#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments rewired
 
 Inside the folder xee Minecraft is considered as a mod and the vanilla-tweaking scripts will be in "minecraft" folder abreast of other mod-tweaking folders.
 
